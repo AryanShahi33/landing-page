@@ -4,12 +4,11 @@ body {
     flex: 1;
 }
 
-.header
-{   
+.header {   
     display:flex;
-    background-color: #1F2937;
-    justify-content: space-between;
     flex: 1;
+    justify-content: space-between;
+    background: #1F2937;
 }
 
 .logo {
@@ -29,19 +28,23 @@ ul {
     gap: 15px;
 }
 
-.hero {
-    background-color: #1F2937;
-    display: flex;
-    flex: 1;
-}
 
 .main {
     font-size: 48px;
     font-weight: 900px;
     color: #F9FAF8;
+    max-width: 300px;
 }
 
 .second {
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 410px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+    justify-content: center;
 }

@@ -8,7 +8,9 @@ body {
     display:flex;
     justify-content: space-between;
     background: #1F2937;
-    padding-left: 100px;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .logo {
@@ -31,7 +33,7 @@ ul {
 
 .main {
     font-size: 48px;
-    font-weight: 900px;
+    font-weight: 900;
     color: #F9FAF8;
     max-width: 300px;
 }
@@ -42,9 +44,28 @@ ul {
     max-width: 410px;
 }
 
-.text {
+.contain {
     display: flex;
     flex-wrap: wrap;
     background-color: #1F2937;
+    padding-left: 300px;
+    gap: 200px;
+}
+
+.navigation {
+    padding-right: 300px;
+}
+
+.placeholder {
+    background-color: grey;
+    display: flex;
+    width: 400px;
+    height: 200px;
     justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
 }

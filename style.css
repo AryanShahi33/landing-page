@@ -90,11 +90,11 @@ ul {
     padding: 30px;
 }
 
-.button {
+img {
     border-radius: 30px;
     width: 200px;
     height: 200px;
-    border-color: #3882F6;
+    border: #3882F6 solid;
 }
 
 .illustration {
@@ -111,4 +111,10 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 10px;
+}
+
+.frame
+{
+    display: flex;
+    flex-direction: column;
 }

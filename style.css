@@ -118,3 +118,25 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 150px;
+    margin-top: 10px;
+}
+
+.coute {
+    font-size: 36px;
+    max-width: 800px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    text-align: end;
+
+}

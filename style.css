@@ -124,8 +124,9 @@ img {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 150px;
+    padding: 150px 150px 150px 0px;
     margin-top: 10px;
+    flex: 1;
 }
 
 .coute {
@@ -138,5 +139,20 @@ img {
 
 .author {
     text-align: end;
+}
 
+.action
+
+{
+    display: flex;
+    background-color: #3882F6;
+    padding: 100px;
+}
+
+.fourth 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }

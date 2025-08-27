@@ -50,6 +50,7 @@ ul {
     padding-bottom: 100px;
     justify-content: center;
     align-items: center;
+    gap: 45px;
 }
 
 .navigation {
@@ -187,3 +188,12 @@ img {
     font-weight: bold;
 }
 
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
